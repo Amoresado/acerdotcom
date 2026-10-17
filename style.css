@@ -1,0 +1,460 @@
+.topheader {
+   display: flex;
+ align-items: center !important;
+ justify-content: center;
+ list-style-type: none;
+}
+.navi ul {
+
+    list-style: none;
+
+   font-size: larger; 
+}
+.menuheader-img {
+    display:flex;
+}
+
+ ul { 
+list-style-type: none;
+  justify-content: space-around;
+ 
+  width: 100%; 
+font-size: 40px;
+} 
+li {
+  
+        transition: 0.7s linear;
+}
+
+li:hover{
+    background-color: rgb(226, 228, 231); 
+transition: 1.2s linear;
+}
+#back-top:hover {
+        background-color: rgb(226, 228, 231); 
+transition: 1.2s linear;
+
+}
+.pic {
+width: 100% 
+;
+}
+div.center {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 800;
+} 
+.whole {
+     background-color: #333;
+        color: aliceblue; 
+        display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  font-size: 1rem;
+  /* padding: 60px; */
+  text-align: center;
+} 
+@font-face {
+    font-family: noto;
+        src: url(/fonts/NotoSans-Regular.ttf) format('ttf')
+     url(/fonts/NotoSans-Regular.woff) format('woff')
+  url(/fonts/NotoSans-Regular.woff2) format('woff2')
+    url(/fonts/NotoSans-Regular.eot) format('eot') ;
+    font-weight: 300;
+}
+
+* {
+    font-family: "noto" , arial , sans-serif;
+}
+
+
+.centerh {
+    text-align: center;
+}
+.Categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 55px;
+}
+.Categories img {
+margin: 20px;
+}
+.Categories a,p {
+       text-align: center;
+    text-decoration: none;
+color: black;
+/* font-weight: 700; */
+  /* margin: 0 auto; */
+}
+#cap {
+        display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.two {
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.two-item {
+    position: relative;
+    flex: 1;
+}
+
+.two-item img {
+    width: 100%;
+    display: block;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.insight-item {
+    width: 400px;
+    text-align: center;
+}
+.insight-item a {
+ text-decoration: none;
+ color: green;
+}
+.insight-item img {
+    width: 100%;
+    display: block;
+}
+
+.insight-item h3 {
+    margin: 20px 0 10px;
+}
+
+.insight-item p {
+    margin: 0;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: left;
+}
+.four-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.four {
+    width: 450px;
+    text-align: center;
+}
+
+.four img {
+    width: 450px;
+    display: block;
+}
+
+.four h2 {
+    text-align: center;
+    margin: 15px 0;
+}
+.four a {
+    text-decoration: none;
+    color: green;
+}
+#back-top {
+    width: 100%;
+font-size: 50px;
+    text-align: center;
+    /* margin: 0 auto;
+    padding: 40px; */
+border: 3px white solid;
+transition: 0.9s linear;
+border-radius: 3px;
+background-color: rgb(255, 251, 251);
+}
+.topcenter a {
+    text-align: center;
+    text-decoration: none;
+color: white;
+font-weight: 700;
+  /* margin: 0 auto; */
+
+}
+.navs a {
+        text-decoration: none;
+        color: #000000;
+}
+button:hover {
+    cursor: pointer;
+}
+footer {
+    display: flex;
+/* gap: 50px;
+margin: 100px; */
+}
+.last {
+        display: flex;
+flex-direction: column;
+gap: 50px;
+/* margin: 100px; */
+}
+.link {
+   text-align: center;
+}
+
+ 
+.add-link {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+
+.add-link h3 {
+padding: 30px;
+    border-right: 3px solid gainsboro ;
+    text-align: center;
+}
+.bi-globe , h3 {
+display: flex;
+justify-content: center;
+}
+ .topcenter p {
+    text-align: center;
+}
+.fifty-acer{
+    position:absolute;
+    bottom: 10%;
+  left: 20%;
+  color: #222;
+  transform: translate(-50%, -50%);
+  background-color: #80c343;
+  font-size: 50px;
+      padding: 17px 45px;
+border-radius: 50rem;
+}
+.fiftyy-acer{
+    color: white;
+    position:absolute;
+    bottom: 20%;
+    padding: 25px;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.two {
+    display: flex;
+}
+
+.two-item {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.two-item img {
+    width: 100%;
+    display: block;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.two-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+/* چیزهایی که اول مخفی هستند */
+.hover-content {
+    opacity: 0;
+
+    visibility: hidden;
+
+    transform: translateY(20px);
+
+    transition: 0.4s ease;
+}
+.hover-content a {
+ 
+    font-size: 18px;
+    text-decoration: none;
+    color: green;
+}
+.hover-content p {
+  font-weight: 300;
+}
+.two-item:hover .hover-content {
+    opacity: 1;
+    visibility: visible;
+
+    transform: translateY(0);
+}
+.two-item img:hover {
+border-top: 10px  green solid;
+box-shadow: 5px 5px 15px 5px #000000;
+}
+.categories div p {
+    font-weight: 100;
+}
+.Categories div:hover p {
+    font-weight: 800 !important;
+}
+.Categories {
+        cursor: pointer;
+
+}
+.two {
+        cursor: pointer;
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 0 auto;
+}
+
+footer a,h4:hover {
+    cursor: pointer;
+}
+footer a{
+    font-weight:700;
+    color: #000000;
+    text-decoration: none;
+}
+footer h4 {
+    text-align: left;
+    font-weight: 400;
+}
+ .bi-list::after {
+content: "Acer Brands";
+display: inline-block;
+font-size: 16px;
+font-style: normal;
+ } 
+
+ nav.navs {
+    padding: 5px ;
+    color: #222;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 19.2px;
+ }
+ nav a {   
+     margin: 20px;
+ }
+ .imgac {
+    margin-right: 15px;
+ 
+ }
+ .topheader-one  {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #222;
+    color: aliceblue;
+
+    padding: 10px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+ }
+.topcenter a,
+.hover-content a,
+.insight-item a,
+.four-container a,
+footer h4 ,.add-link a{
+    position: relative;
+    text-decoration: none;
+}
+
+.topcenter a::after{
+     content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+.hover-content a::after,
+.insight-item a::after,
+.four-container a::after,
+footer h4::after ,.add-link a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.topcenter a:hover::after,
+.hover-content a:hover::after,
+.insight-item a:hover::after,
+.four-container a:hover::after,
+footer h4:hover::after,.add-link a:hover::after {
+    transform: scaleX(1);
+}
+.link i {
+    font-size: 30px;
+    margin: 15px;
+}
+.add-link a {
+    text-decoration: none;
+    color: #000000;
+}
+.language {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+
+    justify-content: center;
+}
+
+.language h3 {
+    margin: 0;
+}
+.inc {
+    font-weight: 300;
+}
+.navs a {
+    padding: 15px;
+        transition: 0.7s;
+
+}
+.navs a:hover {
+    transition: 0.7s;
+background-color: #e9dbdb;
+}
