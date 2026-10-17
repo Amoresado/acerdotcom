@@ -57,10 +57,10 @@ div.center {
 } 
 @font-face {
     font-family: noto;
-        src: url(/fonts/NotoSans-Regular.ttf) format('ttf')
-     url(/fonts/NotoSans-Regular.woff) format('woff')
-  url(/fonts/NotoSans-Regular.woff2) format('woff2')
-    url(/fonts/NotoSans-Regular.eot) format('eot') ;
+        src: url(NotoSans-Regular.ttf) format('ttf')
+     url(NotoSans-Regular.woff) format('woff')
+  url(NotoSans-Regular.woff2) format('woff2')
+    url(NotoSans-Regular.eot) format('eot') ;
     font-weight: 300;
 }
 
